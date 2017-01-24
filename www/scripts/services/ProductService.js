@@ -11,7 +11,7 @@
 
       for (var i = 0; i < o.choosenItems.length; i++) {
         if (item.id == o.choosenItems[i].id) {
-          o.increaseItemCount(item, index);
+          alert('This item is already in your cart.');
 
           return false;
         }
