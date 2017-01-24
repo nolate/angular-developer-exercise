@@ -1,0 +1,24 @@
+<div>
+  <ul class="list-group">
+    <li class="list-group-item list-group-item-success"><b>Shopping cart contents</b></li>
+    <li class="list-group-item" ng-repeat="item in User.choosenItems">
+      {{item.name}}
+      <span class="badge">{{item.count}}</span>
+    </li>
+  </ul>
+
+  <div class="row">
+    <div class="col _confirm-print-button-group">
+      <div class="btn-group">
+        <button type="button" class="btn btn-md btn-success" ng-click="confirmPurchase()">
+          <span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span>
+          Confirm order
+        </button>
+        <button type="button" class="btn btn-md btn-primary" ng-click="print()">
+          <span class="glyphicon glyphicon-print" aria-hidden="true"></span>
+          Print confirmation
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

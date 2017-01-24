@@ -1,0 +1,30 @@
+._order-button-container {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+._cart-container {
+  background: #f3f3f3;
+}
+
+._cart-container ._custom-table-header {
+  text-align: center;
+  font-size: 18px;
+  margin: 10 0 10 0;
+}
+
+._cart-container > table {
+  margin-bottom: 10px;
+}
+
+._cart-container > table > ._not-empty-cart-tbody {
+  font-size: 12px;
+}
+
+._cart-container > table > ._not-empty-cart-tbody > tr > td{
+  vertical-align: middle;
+}
+
+._confirm-print-button-group {
+  text-align: center;
+}
